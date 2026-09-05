@@ -20,6 +20,13 @@ Because this is a skill rather than a library, the version numbers are read as:
 
 ### Added
 
+- New reference module `references/humanizer.md`: fact-preserving prose revision,
+  voice matching, and a diagnostic checklist of recurring AI-writing patterns.
+  Adapted from Siqi Chen's MIT-licensed Humanizer 2.11.2. `SKILL.md` now routes
+  drafting and humanization requests to it after facts, purpose, structure, and
+  stance are settled, and keeps data/inference/hunch labels out of applicant-facing
+  prose. `README.md`, `NOTICE.md`, and `fidelity-ledger/provenance.md` record the new
+  module and its license.
 - New reference module `references/personal-statements.md`: personal-statement,
   optional-essay, addendum/diversity-statement, wait-list-letter, and
   recommendation-letter craft. Distilled from Paul Bodine's *Great Personal

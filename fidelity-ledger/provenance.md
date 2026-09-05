@@ -21,8 +21,9 @@
 | 9 | Stewart, *Perfect Personal Statements: Law, Business, Medicine, Graduate School*, 2nd ed. | `personal-statements.md` | 2002 |
 | 10 | Zhang & Mohapatra (eds.), *Successful Personal Statements to Get You into a Top University* | `personal-statements.md` (structural patterns only — see module §6) | UK/international undergraduate-admissions compilation, exact year unverified |
 | 11 | Top Law Schools, "Guide to Personal Statements" (top-law-schools.com) | `personal-statements.md` | Web page, undated — treat as current-as-fetched only |
+| 12 | Siqi Chen, *Humanizer*, version 2.11.2 (MIT License), based on Wikipedia's "Signs of AI writing" | `humanizer.md` | 2025; versioned editing checklist |
 
-Sources 1–3 supply the **reasoning temperament and its procedures**. Sources 4–11 supply **domain structure**. This division is deliberate and load-bearing: the voice is not a subject-matter expert wearing an analyst's manner, it is an analyst reasoning over domain structure it treats as provisional.
+Sources 1–3 supply the **reasoning temperament and its procedures**. Sources 4–11 supply **domain structure**. Source 12 supplies a **sentence-level editing checklist**, not facts or advising voice. This division is deliberate and load-bearing: the voice is not a subject-matter expert wearing an analyst's manner, it is an analyst reasoning over domain structure it treats as provisional.
 
 ## 2. Core behaviour → source map
 
@@ -46,6 +47,7 @@ Sources 1–3 supply the **reasoning temperament and its procedures**. Sources 4
 | Name the single fact that would flip the ranking | Heuer, ACH step 6 (sensitivity) |
 | Every recommendation ships with trip-wires | Heuer, ACH step 8; H&P Indicators |
 | Read the draft as the self-interested gatekeeper would | H&P Red Hat Analysis; Edwards on committee motivation and the informal application |
+| Remove AI-writing patterns without changing claims or replacing the applicant's voice | Chen, *Humanizer* 2.11.2; implemented as a trigger-loaded editing pass rather than core voice |
 | Concede facts freely, premises rarely | Tetlock, commandment 4 (update on evidence, not on pressure) |
 | Mechanism-and-condition instead of false precision | Tetlock, commandment 6 (granularity permitted by the problem, no more) |
 | The lens goes on before the evidence arrives | Heuer's central thesis across the perception, memory, and mind-set chapters |
@@ -62,7 +64,8 @@ Sources 1–3 supply the **reasoning temperament and its procedures**. Sources 4
 - **The Zhang/Mohapatra source is deliberately used for structure only, never content.** It is a UK/international undergraduate-admissions compilation, outside the U.S.-law-school domain this skill covers (§5 lists non-U.S. jurisdictions as a known gap). `personal-statements.md` §6 extracts only the structural patterns that independently recur in the U.S.-law-specific sources (Bodine, the Princeton Review, Stewart) and explicitly enumerates the UK-specific mechanics — UCAS, Oxbridge interviews, A-level/IB framing — that must not be reasoned into a U.S. context. This is the same discipline as bounding Tetlock's numeric scoring in `calibration.md`: take the transferable mechanism, leave the non-transferable apparatus behind.
 - **Bodine's publication year required verification.** The source file's own filename metadata suggested 1959; bibliographic records (McGraw-Hill, 2006, 1st ed.) confirm the actual year. Always verify a source's publication date independently before writing a vintage note — do not trust filename or upload metadata.
 - **The top-law-schools.com page is treated as a web source, not a book.** It carries no fixed publication date and its sample-essay ratings and admissions-dean quote are current only as of the fetch date recorded in this repo's history; unlike the book sources, it should be re-fetched rather than assumed stable if its content is ever load-bearing for a specific claim.
-- **Nothing is quoted at length from any source.** All modules are synthesised. Author terminology is preserved exactly where the term is the framework — ACH, Key Assumptions Check, Indicator Validator™, ELP, RCM, revenue theory, disease theory, cost/price/net price, perpetual beta, Fermi-izing, dragonfly eye, TELL model, "data-mining your life," "Everything Signifies," "Fine Art of Damage Control," uniqueness filter — because paraphrasing a named framework loses the ability to find it in the source.
+- **Humanizer is adapted under the MIT License rather than distilled as domain authority.** Its checklist is loaded only for prose revision. The advisor's factual discipline, the applicant's genuine writing sample, and the document's purpose and genre take precedence. The checklist diagnoses patterns; it is not used to infer authorship. The original copyright and permission notice are preserved in `NOTICE.md`.
+- **Except for the MIT-licensed Humanizer adaptation, nothing is quoted at length from a source.** The domain modules are synthesised. Author terminology is preserved exactly where the term is the framework — ACH, Key Assumptions Check, Indicator Validator™, ELP, RCM, revenue theory, disease theory, cost/price/net price, perpetual beta, Fermi-izing, dragonfly eye, TELL model, "data-mining your life," "Everything Signifies," "Fine Art of Damage Control," uniqueness filter — because paraphrasing a named framework loses the ability to find it in the source.
 
 ## 4. Staleness ledger
 
@@ -79,6 +82,7 @@ The reasoning modules age slowly; the domain modules age fast. Ordered by decay 
 | Citation-format specifics, research tools | Slow but real. | Check current style manual. |
 | Application component structure; committee motivation | Slow. | Usable as structure. |
 | Personal-statement topic taxonomy, structural architecture, addendum/recommendation-letter mechanics (Bodine, Stewart, Princeton Review craft guidance) | Very slow — describes a durable genre convention. | Usable directly. |
+| Humanizer AI-writing pattern checklist | Medium — model habits and stylistic conventions change, and the source is versioned. | Use as a diagnostic checklist, preserve writer samples as the stronger signal, and review against upstream when updating the module. |
 | Analytical patterns, rhetorical framework, design elements, ELP | Very slow — describes a legal culture. | Usable directly. |
 | Institutional mechanism: cost/price, RCM, revenue and disease theories, governance | Very slow. | Usable directly. |
 | Cognitive biases, ACH, calibration discipline | Effectively stable. | Usable directly. |

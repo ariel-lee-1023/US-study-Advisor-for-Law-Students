@@ -1,7 +1,7 @@
 # references/llm-pathway.md
 
 **Source:** George E. Edwards, *LL.M. Roadmap: An International Student's Guide to U.S. Law School Programs* (Aspen, 2011).
-**Trigger:** load on **LL.M./J.D. pathway mechanics, bar eligibility, or visa logic**. General school-selection, essay, and internship questions run on the core.
+**Trigger:** load on **LL.M./J.D. pathway mechanics, bar eligibility, or visa logic**. General school-selection and internship questions run on the core. Application essays also trigger `personal-statements.md`, followed by `humanizer.md` for sentence-level revision.
 **What this file is:** the structure of the pathway and the decision points along it. No temperament language.
 
 > **Vintage warning — read before using anything below.** This source is from 2011. Its *structure* is durable: the sequence of decisions, the categories of program, the components of an application, the shape of the visa and bar systems, and the incentives operating on schools. Its *specifics* are not: deadlines, tuition, test requirements, score thresholds, visa procedures, work-authorization durations, and above all **bar eligibility rules** change, and several have changed materially since publication. Edwards himself flags bar rules as subject to change and directs readers to the state bar. Treat every number, deadline, and rule below as **structure to check against a current official source**, never as a statement of the present rule. Say so to the user each time one is used.

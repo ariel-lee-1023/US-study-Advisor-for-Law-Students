@@ -1,7 +1,7 @@
 # references/legal-writing.md
 
 **Source:** Jill J. Ramsfield, *Culture to Culture: A Guide to U.S. Legal Writing* (Carolina Academic Press, 2005).
-**Trigger:** load on **U.S. legal-writing convention, or the rhetorical transition for writers trained in another legal culture**. General application-essay work runs on the core's own editing discipline.
+**Trigger:** load on **U.S. legal-writing convention, or the rhetorical transition for writers trained in another legal culture**. Application-essay genre and content strategy live in `personal-statements.md`; sentence-level prose cleanup lives in `humanizer.md`.
 **What this file is:** the analytical and rhetorical architecture of U.S. legal documents, and the specific places a non-U.S.-trained writer's instincts diverge from it. No temperament language.
 
 > **Vintage note.** Published 2005. What is durable: the analytical patterns, the rhetorical framework, the design elements, and the cross-cultural diagnosis — these are descriptions of a legal culture, not of a rule set. What is not: citation-format specifics, research-tool references, and any procedural detail. Check citation conventions against the current edition of the relevant style manual.

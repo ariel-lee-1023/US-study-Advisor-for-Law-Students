@@ -39,6 +39,7 @@ us-study-advisor-for-law-students/
 │   ├── llm-pathway.md            # LL.M./J.D., bar eligibility, visas
 │   ├── legal-writing.md          # U.S. legal-writing convention
 │   ├── personal-statements.md    # topic selection, structure, addenda, recommendation letters
+│   ├── humanizer.md              # fact-preserving cleanup of AI-writing patterns
 │   └── institutions.md           # how U.S. universities are funded and governed
 ├── fidelity-ledger/              # human-maintainer-facing — never trigger-loaded
 │   └── provenance.md             # sources, fidelity notes, staleness ledger, extension protocol
@@ -74,6 +75,7 @@ architecture, and `fidelity-ledger/provenance.md` says so explicitly.
 | LL.M./J.D. pathway mechanics, bar eligibility, visa logic, programme selection | `references/llm-pathway.md` |
 | U.S. legal-writing convention, or the rhetorical transition for writers trained in another legal culture | `references/legal-writing.md` |
 | Drafting or structuring a personal statement, optional essay, addendum, or wait-list letter; selecting or briefing recommenders | `references/personal-statements.md` |
+| Drafting, rewriting, or line-editing prose that should sound like the applicant; reviewing AI-writing patterns; a request to humanize text | `references/humanizer.md` |
 | How U.S. universities and law schools are structured, funded, or governed | `references/institutions.md` |
 
 For any domain not covered, the advisor reasons from the core and says plainly that
@@ -121,6 +123,7 @@ runtime.
 - Attach a trip-wire to every recommendation: the observable that would mean the
   recommendation needs revisiting, and in which direction.
 - Read your draft as the tired, self-interested reader on the fortieth file would.
+- Remove recurring AI-writing patterns without changing claims or replacing your voice.
 - Refuse a fabricated percentage, and give a mechanism and a condition instead.
 
 **It does not:**
@@ -159,7 +162,8 @@ The full decay-ordered ledger is in `fidelity-ledger/provenance.md` §4. The hea
 
 ## Source corpus
 
-Three sources supply the reasoning temperament; the remainder supply domain structure. The
+Three sources supply the reasoning temperament; the admissions and education sources
+supply domain structure; Humanizer supplies a sentence-level editing checklist. The
 division is deliberate — the voice is not a subject-matter expert wearing an analyst's
 manner, it is an analyst reasoning over domain structure it treats as provisional.
 
@@ -191,12 +195,19 @@ manner, it is an analyst reasoning over domain structure it treats as provisiona
   Statements"](https://www.top-law-schools.com/personal-statement-examples.html) — web
   source, treated as current-as-fetched rather than a fixed-date book
 
-Nothing is quoted at length from any source; the modules are synthesised. Author
-terminology is preserved exactly where the term *is* the framework — ACH, Key
-Assumptions Check, ELP, RCM, revenue theory, disease theory, cost/price/net price,
-perpetual beta, Fermi-izing, TELL model, uniqueness filter — because paraphrasing a
-named framework destroys the ability to find it in the original. A behaviour-by-behaviour
-source map is in `fidelity-ledger/provenance.md` §2.
+**Editing**
+
+- Siqi Chen, [*Humanizer*](https://github.com/blader/humanizer), version 2.11.2
+  (2025) — an MIT-licensed editing checklist based on Wikipedia's "Signs of AI
+  writing," adapted in `references/humanizer.md`
+
+Except for the MIT-licensed Humanizer adaptation, nothing is quoted at length from a
+source; the domain modules are synthesised. Author terminology is preserved exactly
+where the term *is* the framework — ACH, Key Assumptions Check, ELP, RCM, revenue
+theory, disease theory, cost/price/net price, perpetual beta, Fermi-izing, TELL model,
+uniqueness filter — because paraphrasing a named framework destroys the ability to
+find it in the original. A behaviour-by-behaviour source map is in
+`fidelity-ledger/provenance.md` §2.
 
 ---
 
@@ -220,6 +231,7 @@ commitments held for independent ethical reasons rather than analytic ones.
 
 MIT © 2026 Ariel Lee. [See LICENSE](LICENSE).
 
-This license covers the original text in this repository. It does not extend to any
-referenced source books, which remain the property of their respective copyright
-holders.
+This license covers the original text in this repository. The adapted Humanizer
+module retains its original MIT copyright and license notice in `NOTICE.md`. The
+license does not extend to referenced source books, which remain the property of
+their respective copyright holders.
