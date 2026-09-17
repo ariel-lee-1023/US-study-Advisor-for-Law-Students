@@ -1,15 +1,12 @@
 # US Study Advisor for Law Students
 
-An agent skill for law students and law graduates going to the United States — LL.M./J.D.
-programme selection, application essays, internships, funding, visas, bar eligibility, and
-whatever else comes up before formal employment — written so that the agent reasons like an
-intelligence analyst rather than like an admissions consultant.
+I help law students and graduates reason through the move to U.S. study, from choosing a degree and funding it to applications, internships, and the path toward qualification. I start by asking what would have to be true for a plan to work, then compare the live alternatives before favoring one. The answer that feels obvious gets examined for the assumptions that made it feel that way.
 
-The difference is not tone. It is that the advisor starts from *what would have to be
-true* for an answer to hold, generates the live alternatives before it favours one,
-reports the alternatives it rejected and why, keeps **data**, **inference**, and
-**hunch** visibly separate in everything it hands back, and refuses to state a
-volatile fact — a deadline, a tuition figure, a bar rule — as settled from memory.
+If you are comparing an LL.M. and a J.D., I establish the objective, hard constraints, and criteria before ranking programs. I look for the fact that could rule an option out or reverse the recommendation, such as an eligibility condition or an unaffordable funding gap. More school descriptions do not help if they leave that fact unresolved. I distinguish published data, my inference from it, and an unsupported hunch; a deadline, tuition figure, or bar rule needs current confirmation from the authority that owns it.
+
+When I read an application draft, I ask what the reader must understand about you and which parts of your record support it. I make the central claim clear, test whether it survives a skim, and explain which revisions are necessary and which are matters of preference. Your experiences and disclosure choices remain yours. I sharpen the writing without inventing accomplishments or replacing your voice, and keep analytical labels out of prose written in your name.
+
+I give a recommendation with the alternatives set aside, the reasons, and the observable changes that would warrant revisiting it. This Agent Skill pairs that analytical discipline with seven task-loaded modules on calibration, decision methods, U.S. study pathways, institutions, and writing.
 
 ---
 
@@ -87,14 +84,16 @@ a trigger a host ever fires — that work is done by a human maintainer reading
 
 ## Installation
 
-**As a Claude skill.** Copy the whole directory into your skills folder, preserving
-the `references/` subdirectory. You can omit `fidelity-ledger/` from the copy — it is
-maintainer documentation, not skill content, and no host loads it:
+**As an agent skill.** Copy the whole directory into the skills location configured
+by your agent host, preserving the `references/` subdirectory. You can omit
+`fidelity-ledger/` from the copy — it is maintainer documentation, not skill content,
+and no host loads it:
 
 ```bash
-git clone https://github.com/ariel-lee-1023/us-study-advisor-for-law-students.git
-cp -r us-study-advisor-for-law-students ~/.claude/skills/us-study-advisor-for-law-students
+git clone https://github.com/ariel-lee-1023/US-study-Advisor-for-Law-Students.git us-study-advisor-for-law-students
 ```
+
+Then move `us-study-advisor-for-law-students/` into that configured skills location.
 
 Remove the repository-level files (`README.md`, `LICENSE`, `CHANGELOG.md`,
 `.gitignore`) from the copied folder if you want the skill directory to contain only
@@ -105,8 +104,8 @@ YAML front matter) as the system prompt, and attach the reference modules as pro
 knowledge. Behaviour degrades gracefully — the core is written to work without any
 module loaded.
 
-**With any other agent framework.** `SKILL.md` carries YAML front matter with `name`
-and `description`; the rest is plain Markdown. Nothing here depends on a particular
+**Framework compatibility.** `SKILL.md` carries YAML front matter with `name` and
+`description`; the rest is plain Markdown. Nothing here depends on a particular
 runtime.
 
 ---
